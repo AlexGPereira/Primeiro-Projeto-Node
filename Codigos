@@ -1,0 +1,17 @@
+comando para trabalhar com datas,
+
+yarn add date-fns
+
+
+comando para instalar o typerpm e o driver do postgres
+
+yarn add typeorm pg
+
+comando para iniciar o banco de dados
+sudo docker start b94314e079e7
+
+comando para verificar o contender que esta funcionando
+sudo docker ps -a
+
+comando para criação de tabela dentro do typeorm
+yarn typeorm migration:create -n NOME DO ARQUIVO
